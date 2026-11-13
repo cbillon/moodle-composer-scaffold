@@ -1,6 +1,6 @@
 {
-    "name": "moodle/moodle-composer-scaffold",
-    "description": "A scaffolding tool for Composer-based Moodle installations",
+    "name": "cbillon/moodle-composer-scaffold",
+    "description": "A scaffolding tool for Composer-based Cbillon installations",
     "type": "composer-plugin",
     "require": {
         "composer-plugin-api": "^2.0",
@@ -15,11 +15,11 @@
     "license": "GPL-3.0-or-later",
     "autoload": {
         "psr-4": {
-            "Moodle\\Composer\\Scaffold\\": "src/"
+            "Cbillon\\Composer\\Scaffold\\": "src/"
         }
     },
     "extra": {
-        "class": "Moodle\\Composer\\Scaffold\\Plugin"
+        "class": "Cbillon\\Composer\\Scaffold\\Plugin"
     },
     "scripts": {
         "phpstan": "@php phpstan analyse"
